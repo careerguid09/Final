@@ -95,6 +95,8 @@ const domainData = {
   POST_GRADUATION: ["MA", "MSc", "MCom"],
   LANGUAGE_COURSES: ["German", "French", "Italian", "Chinese"],
   AGRICULTURE: ["BSc Agriculture", "MSc Agriculture"],
+  EDUCATION_COURSES : ["B.Ed", "D.El.Ed", "CTET Guidance", "STET Guidance"],
+  VOCATIONAL_COURSES : ["BCA", "MCA", "PGDCA", "B.Lib", "M.Lib"]
 };
 
 const CounselorDashboard = () => {
@@ -1097,7 +1099,7 @@ const updateClientStatusHandler = async (clientId, status) => {
           {selectedDomain && (
             <div className="w-full sm:w-64">
               <label className="text-xs font-bold text-blue-600 mb-2 ml-1 flex items-center gap-1 uppercase tracking-wider">
-                <Sparkles size={14} /> {selectedDomain.name} Courses
+                <Sparkles size={14} /> {selectedDomain.name}
               </label>
               <div className="relative">
                 <select
