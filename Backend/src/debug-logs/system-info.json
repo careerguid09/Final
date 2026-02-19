@@ -1,0 +1,1408 @@
+[
+  {
+    "timestamp": "2026-02-14T17:04:01.369Z",
+    "sessionId": "SESS-1771088641368-c9jiyel0h",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 83955712,
+      "heapTotal": 41652224,
+      "heapUsed": 31478488,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 2.6019495,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 19316,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:01.371Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:02.966Z",
+    "sessionId": "SESS-1771088642966-y4gddzicy",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 86028288,
+      "heapTotal": 60264448,
+      "heapUsed": 27696864,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.0953014,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 25612,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:02.968Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:04.511Z",
+    "sessionId": "SESS-1771088644511-d0bp6lvyj",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 84258816,
+      "heapTotal": 41652224,
+      "heapUsed": 31557392,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.0577865,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 16904,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:04.513Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:06.203Z",
+    "sessionId": "SESS-1771088646202-plissnb86",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 84025344,
+      "heapTotal": 41652224,
+      "heapUsed": 31414856,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.209992,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 16960,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:06.204Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:07.551Z",
+    "sessionId": "SESS-1771088647551-ws4f97374",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 84275200,
+      "heapTotal": 41652224,
+      "heapUsed": 31542448,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 0.8336524,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 28576,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:07.553Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:08.822Z",
+    "sessionId": "SESS-1771088648821-nc55hm40b",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 85876736,
+      "heapTotal": 60002304,
+      "heapUsed": 27634640,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 0.837096,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 13752,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:08.823Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:10.046Z",
+    "sessionId": "SESS-1771088650046-4311ze3xx",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 85614592,
+      "heapTotal": 60526592,
+      "heapUsed": 27434520,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 0.8288132,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 26296,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:10.047Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:11.233Z",
+    "sessionId": "SESS-1771088651232-00ltrowmt",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 85852160,
+      "heapTotal": 60264448,
+      "heapUsed": 27484888,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 0.7711803,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 21144,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:11.234Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:12.443Z",
+    "sessionId": "SESS-1771088652443-jcz7ozg79",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 84226048,
+      "heapTotal": 41652224,
+      "heapUsed": 31480056,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 0.7869437,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 30360,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:12.444Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:13.831Z",
+    "sessionId": "SESS-1771088653830-28gzt7qss",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 84541440,
+      "heapTotal": 41652224,
+      "heapUsed": 31485808,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 0.976749,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 28776,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:13.832Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:15.006Z",
+    "sessionId": "SESS-1771088655005-986txqid4",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 84332544,
+      "heapTotal": 41652224,
+      "heapUsed": 31486624,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 0.7821177,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 6012,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:15.007Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:16.158Z",
+    "sessionId": "SESS-1771088656157-6aethytqt",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 84201472,
+      "heapTotal": 41652224,
+      "heapUsed": 31550112,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 0.7533344,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 13964,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:16.172Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:17.397Z",
+    "sessionId": "SESS-1771088657397-2fx9bim8a",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 85979136,
+      "heapTotal": 60264448,
+      "heapUsed": 27486488,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 0.746961,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 18772,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:17.399Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:18.767Z",
+    "sessionId": "SESS-1771088658767-csjfb77wu",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 85540864,
+      "heapTotal": 59740160,
+      "heapUsed": 27465080,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 0.9674806,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 24580,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:18.769Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:20.380Z",
+    "sessionId": "SESS-1771088660380-rdt4y8i6c",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 85839872,
+      "heapTotal": 60002304,
+      "heapUsed": 27553720,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.2057755,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 20140,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:20.383Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:21.940Z",
+    "sessionId": "SESS-1771088661940-hfu44ovww",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 84090880,
+      "heapTotal": 41652224,
+      "heapUsed": 31737112,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 0.9595845,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 16420,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:21.941Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:23.540Z",
+    "sessionId": "SESS-1771088663539-j1yuw6ilr",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 83791872,
+      "heapTotal": 41652224,
+      "heapUsed": 31479176,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.0319852,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 22148,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:23.541Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:25.129Z",
+    "sessionId": "SESS-1771088665129-6ith75ych",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 84189184,
+      "heapTotal": 41652224,
+      "heapUsed": 31479576,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.13505,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 20704,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:25.131Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:04:26.520Z",
+    "sessionId": "SESS-1771088666520-1ckf8umxa",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 85753856,
+      "heapTotal": 60264448,
+      "heapUsed": 27457712,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 0.9197938,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 23080,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:04:26.521Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:43:12.127Z",
+    "sessionId": "SESS-1771090992127-ji0isuzvj",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87220224,
+      "heapTotal": 41652224,
+      "heapUsed": 31540928,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.4018452,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 11212,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:43:12.129Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:43:14.091Z",
+    "sessionId": "SESS-1771090994090-iqt6jx7th",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87203840,
+      "heapTotal": 41652224,
+      "heapUsed": 31546560,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.3347802,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 8648,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:43:14.092Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:23.708Z",
+    "sessionId": "SESS-1771091123707-ifybsnyhw",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89366528,
+      "heapTotal": 60002304,
+      "heapUsed": 27718768,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.2533717,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 16284,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:23.709Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:25.970Z",
+    "sessionId": "SESS-1771091125970-gcktzd1ux",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87719936,
+      "heapTotal": 41652224,
+      "heapUsed": 31566248,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.7142156,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 23308,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:25.972Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:27.912Z",
+    "sessionId": "SESS-1771091127912-lrw4zxf7f",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87969792,
+      "heapTotal": 41652224,
+      "heapUsed": 31374520,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.3871801,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 23404,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:27.915Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:29.892Z",
+    "sessionId": "SESS-1771091129892-stmb48y74",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 88367104,
+      "heapTotal": 41652224,
+      "heapUsed": 31542304,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.4357996,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 24932,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:29.894Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:32.047Z",
+    "sessionId": "SESS-1771091132047-qw3lq9cey",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87560192,
+      "heapTotal": 41652224,
+      "heapUsed": 31486552,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.4636903,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 13832,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:32.049Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:34.041Z",
+    "sessionId": "SESS-1771091134041-f02odfvlq",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87990272,
+      "heapTotal": 41652224,
+      "heapUsed": 31243184,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.4507079,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 12884,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:34.043Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:36.231Z",
+    "sessionId": "SESS-1771091136231-fvyy7sd0u",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87810048,
+      "heapTotal": 41652224,
+      "heapUsed": 31543072,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.6288607,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 15336,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:36.234Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:38.154Z",
+    "sessionId": "SESS-1771091138153-18idvxbaa",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89698304,
+      "heapTotal": 60264448,
+      "heapUsed": 27734512,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.3690678,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 29488,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:38.155Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:40.190Z",
+    "sessionId": "SESS-1771091140190-nk3dimnqx",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89784320,
+      "heapTotal": 59740160,
+      "heapUsed": 27607616,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.5250511,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 11352,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:40.191Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:42.818Z",
+    "sessionId": "SESS-1771091142818-34vhzer6n",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87789568,
+      "heapTotal": 41652224,
+      "heapUsed": 31534888,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 2.0258538,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 17864,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:42.820Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:44.894Z",
+    "sessionId": "SESS-1771091144894-qoqynrlx8",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89956352,
+      "heapTotal": 60264448,
+      "heapUsed": 27588784,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.4401108,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 30284,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:44.897Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:47.341Z",
+    "sessionId": "SESS-1771091147340-hc9p1b9y3",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89452544,
+      "heapTotal": 60002304,
+      "heapUsed": 27528032,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.8230515,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 27496,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:47.342Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:49.985Z",
+    "sessionId": "SESS-1771091149985-2accsywng",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87953408,
+      "heapTotal": 41652224,
+      "heapUsed": 31368440,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 2.062153,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 6344,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:49.988Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:52.256Z",
+    "sessionId": "SESS-1771091152255-ntd91ohck",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87822336,
+      "heapTotal": 41652224,
+      "heapUsed": 31550904,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.6712927,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 1216,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:52.260Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:54.303Z",
+    "sessionId": "SESS-1771091154303-rdqwzqu6a",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89976832,
+      "heapTotal": 60002304,
+      "heapUsed": 27559504,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.4380527,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 11848,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:54.306Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:56.972Z",
+    "sessionId": "SESS-1771091156972-0irbm6wdj",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87977984,
+      "heapTotal": 41652224,
+      "heapUsed": 31420736,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 2.0354373,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 23220,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:56.974Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:45:59.028Z",
+    "sessionId": "SESS-1771091159028-p0vsbh4qe",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87490560,
+      "heapTotal": 41652224,
+      "heapUsed": 32061928,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.429828,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 13196,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:45:59.030Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:00.822Z",
+    "sessionId": "SESS-1771091160822-6tiq87yw5",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87867392,
+      "heapTotal": 41652224,
+      "heapUsed": 31361168,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.2793668,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 16236,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:00.824Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:03.125Z",
+    "sessionId": "SESS-1771091163125-5paykx0ae",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87871488,
+      "heapTotal": 41652224,
+      "heapUsed": 31552504,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.712845,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 20092,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:03.127Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:05.361Z",
+    "sessionId": "SESS-1771091165360-5bsfu5dif",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87965696,
+      "heapTotal": 41652224,
+      "heapUsed": 31475688,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.6732161,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 11596,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:05.362Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:07.413Z",
+    "sessionId": "SESS-1771091167413-v43yd5xyd",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87924736,
+      "heapTotal": 41652224,
+      "heapUsed": 31566016,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.5184617,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 10124,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:07.415Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:09.741Z",
+    "sessionId": "SESS-1771091169741-vs01qtxwr",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87900160,
+      "heapTotal": 41652224,
+      "heapUsed": 31564224,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.7180003,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 14272,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:09.743Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:12.437Z",
+    "sessionId": "SESS-1771091172437-8eohpmrhe",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87748608,
+      "heapTotal": 41652224,
+      "heapUsed": 31540280,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 2.0935828,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 22180,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:12.439Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:14.587Z",
+    "sessionId": "SESS-1771091174586-zt7sfyssp",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89788416,
+      "heapTotal": 60002304,
+      "heapUsed": 27530488,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.4202496,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 23984,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:14.588Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:16.139Z",
+    "sessionId": "SESS-1771091176139-brd2ipfzb",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87900160,
+      "heapTotal": 41652224,
+      "heapUsed": 31294240,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1010751,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 18740,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:16.141Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:17.720Z",
+    "sessionId": "SESS-1771091177720-vlhz4y7vg",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87916544,
+      "heapTotal": 41652224,
+      "heapUsed": 31549752,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1539717,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 19120,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:17.721Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:19.471Z",
+    "sessionId": "SESS-1771091179471-zgkwewnpb",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89432064,
+      "heapTotal": 60002304,
+      "heapUsed": 27667120,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.3026212,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 13112,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:19.473Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:21.147Z",
+    "sessionId": "SESS-1771091181147-x9e2ci25a",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 88137728,
+      "heapTotal": 41652224,
+      "heapUsed": 31480392,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1506478,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 27576,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:21.149Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:22.800Z",
+    "sessionId": "SESS-1771091182800-db1as2mjg",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89591808,
+      "heapTotal": 60002304,
+      "heapUsed": 27558112,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1769273,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 26904,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:22.802Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:24.520Z",
+    "sessionId": "SESS-1771091184520-rav55zxam",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89735168,
+      "heapTotal": 60264448,
+      "heapUsed": 27678264,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.2417086,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 20508,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:24.522Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:26.220Z",
+    "sessionId": "SESS-1771091186220-9dpr89h5j",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89743360,
+      "heapTotal": 60526592,
+      "heapUsed": 27339696,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1638948,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 30012,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:26.222Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:27.823Z",
+    "sessionId": "SESS-1771091187823-psuo3t6tu",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89554944,
+      "heapTotal": 60264448,
+      "heapUsed": 27706704,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1242493,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 13712,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:27.826Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:29.572Z",
+    "sessionId": "SESS-1771091189571-j0rilhq3w",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89862144,
+      "heapTotal": 60264448,
+      "heapUsed": 27403640,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.192306,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 28516,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:29.574Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:31.251Z",
+    "sessionId": "SESS-1771091191251-s877ei2u5",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87908352,
+      "heapTotal": 41652224,
+      "heapUsed": 31479920,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1547005,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 27240,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:31.253Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:32.938Z",
+    "sessionId": "SESS-1771091192938-9mz320t7t",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89669632,
+      "heapTotal": 60264448,
+      "heapUsed": 27651184,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.2269262,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 19024,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:32.940Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:34.613Z",
+    "sessionId": "SESS-1771091194613-sja0y4gsh",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 88850432,
+      "heapTotal": 58167296,
+      "heapUsed": 32575240,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1550358,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 24056,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:34.615Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:36.358Z",
+    "sessionId": "SESS-1771091196358-171o905nb",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89346048,
+      "heapTotal": 60264448,
+      "heapUsed": 27760112,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1934635,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 14312,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:36.360Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:37.993Z",
+    "sessionId": "SESS-1771091197992-4ft054o6y",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89579520,
+      "heapTotal": 60002304,
+      "heapUsed": 27574864,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1784798,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 27228,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:37.994Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:39.663Z",
+    "sessionId": "SESS-1771091199662-vnbhdh4me",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87932928,
+      "heapTotal": 41652224,
+      "heapUsed": 31563256,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1694764,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 15532,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:39.664Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:41.413Z",
+    "sessionId": "SESS-1771091201413-u32lcbn1j",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87990272,
+      "heapTotal": 41652224,
+      "heapUsed": 31991976,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1857732,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 3364,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:41.415Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:43.021Z",
+    "sessionId": "SESS-1771091203021-oc4khut6h",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89726976,
+      "heapTotal": 59740160,
+      "heapUsed": 27735176,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1350162,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 2044,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:43.023Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:44.639Z",
+    "sessionId": "SESS-1771091204639-zkowpgo9u",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87982080,
+      "heapTotal": 41652224,
+      "heapUsed": 31546872,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1141664,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 7268,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:44.641Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:47.223Z",
+    "sessionId": "SESS-1771091207222-nhbznzhjq",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87871488,
+      "heapTotal": 41652224,
+      "heapUsed": 31474736,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 2.0957683,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 28052,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:47.224Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:49.610Z",
+    "sessionId": "SESS-1771091209610-ri9rzro55",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87916544,
+      "heapTotal": 41652224,
+      "heapUsed": 31542544,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.8415837,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 20372,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:49.613Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:51.540Z",
+    "sessionId": "SESS-1771091211539-ad4cciipl",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89759744,
+      "heapTotal": 60002304,
+      "heapUsed": 27472424,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.4120779,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 6168,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:51.542Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:53.245Z",
+    "sessionId": "SESS-1771091213245-zhp0agnb9",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87781376,
+      "heapTotal": 41652224,
+      "heapUsed": 31476512,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1800476,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 3056,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:53.247Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:54.933Z",
+    "sessionId": "SESS-1771091214933-s0zevgroa",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87928832,
+      "heapTotal": 41652224,
+      "heapUsed": 31709920,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.1800081,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 23132,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:54.935Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:56.778Z",
+    "sessionId": "SESS-1771091216778-xmgloib1k",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89583616,
+      "heapTotal": 60264448,
+      "heapUsed": 27232200,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.3619731,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 30452,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:56.781Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:46:58.838Z",
+    "sessionId": "SESS-1771091218837-jxkmb5bsg",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89669632,
+      "heapTotal": 60002304,
+      "heapUsed": 27680608,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.5740126,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 14636,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:46:58.840Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:47:00.621Z",
+    "sessionId": "SESS-1771091220620-viwmolvma",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89468928,
+      "heapTotal": 60264448,
+      "heapUsed": 27622880,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.255986,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 19724,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:47:00.624Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:47:02.621Z",
+    "sessionId": "SESS-1771091222621-zycz30ers",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87908352,
+      "heapTotal": 41652224,
+      "heapUsed": 31315712,
+      "external": 20697851,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.5043633,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 29288,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:47:02.623Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:47:04.462Z",
+    "sessionId": "SESS-1771091224461-wptb2k2ql",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 89788416,
+      "heapTotal": 60002304,
+      "heapUsed": 27621112,
+      "external": 20697850,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.2646964,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 10200,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:47:04.463Z"
+  },
+  {
+    "timestamp": "2026-02-14T17:47:06.444Z",
+    "sessionId": "SESS-1771091226444-7p67sstuu",
+    "nodeVersion": "v22.16.0",
+    "platform": "win32",
+    "arch": "x64",
+    "memory": {
+      "rss": 87744512,
+      "heapTotal": 41652224,
+      "heapUsed": 31458016,
+      "external": 20697852,
+      "arrayBuffers": 18300831
+    },
+    "uptime": 1.51591,
+    "hostname": "LAPTOP-QU30C509",
+    "pid": 23020,
+    "cwd": "C:\\Users\\jaggu\\OneDrive\\Desktop\\Counceller_Project_2\\Backend",
+    "loggedAt": "2026-02-14T17:47:06.446Z"
+  }
+]
