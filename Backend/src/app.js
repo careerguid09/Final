@@ -8,7 +8,7 @@ const authMiddleware = require("./middleware/authMiddleware");
 const app = express();
 
 app.use(cors({
-  origin: process.env.FRONTEND_URL,
+  origin: [process.env.FRONTEND_URL_FIRST, process.env.FRONTEND_URL_SECOND, process.env.FRONTEND_URL],
   credentials: true,
 }));
 app.use(express.json());
