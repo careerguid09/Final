@@ -9,7 +9,6 @@ connectDB();
 
 app.use(morgan(":method :url :status :response-time ms - :date[clf]"));
   
-
 app.listen(PORT, () => {
   console.log(`
    Server started successfully!
