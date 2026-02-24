@@ -15,7 +15,6 @@ function App() {
     const trackVisit = async () => {
       try {
         await dispatch(trackPageVisit()).unwrap();
-        console.log(' Visitor tracked');
       } catch (error) {
     
         console.log('Visitor tracking failed (not critical)');

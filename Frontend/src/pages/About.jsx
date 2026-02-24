@@ -221,7 +221,7 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Thousands Trust SS Admission Vala
+              Why Thousands Trust SS Admission Wala
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto text-lg">
               Our proven track record and student-first approach make us the preferred choice
@@ -327,7 +327,7 @@ const About = () => {
 
           <p className="italic border-l-4 border-blue-500 pl-5">
             "Honest guidance, transparency, and student-first approach
-            are the core values behind SS Admission Vala."
+            are the core values behind SS Admission Wala."
           </p>
         </div>
 

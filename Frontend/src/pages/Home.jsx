@@ -97,11 +97,10 @@ const ExpertiseCard = ({ pillar, darkMode }) => {
     <div
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className={`relative h-full flex flex-col p-8 rounded-[2.5rem] border transition-all duration-500 cursor-default ${
-        darkMode
+      className={`relative h-full flex flex-col p-8 rounded-[2.5rem] border transition-all duration-500 cursor-default ${darkMode
           ? "bg-slate-900/40 border-slate-800 hover:border-slate-600 hover:bg-slate-900/60"
           : "bg-white border-slate-100 hover:shadow-2xl hover:shadow-blue-500/10 hover:border-blue-100"
-      } overflow-hidden group`}
+        } overflow-hidden group`}
     >
       {/* Dynamic Glow Effect */}
       <div
@@ -110,11 +109,10 @@ const ExpertiseCard = ({ pillar, darkMode }) => {
 
       {/* Icon Area */}
       <div
-        className={`w-16 h-16 rounded-2xl flex items-center justify-center mb-8 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 shadow-lg ${
-          darkMode
+        className={`w-16 h-16 rounded-2xl flex items-center justify-center mb-8 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 shadow-lg ${darkMode
             ? "bg-slate-800 text-white"
             : `${softBgs[pillar.color]} text-blue-600`
-        }`}
+          }`}
       >
         <div
           className={`p-3 rounded-xl bg-gradient-to-br shadow-inner text-white ${colors[pillar.color]}`}
@@ -189,7 +187,7 @@ const testimonials = [
     name: "Rahul",
     role: "Patna",
     content:
-      "SS Admission Vala helped me get BAMS admission and internship support. Very trusted team.",
+      "SS Admission Wala helped me get BAMS admission and internship support. Very trusted team.",
     rating: 5,
     avatar: "https://static.vecteezy.com/system/resources/previews/021/548/095/non_2x/default-profile-picture-avatar-user-avatar-icon-person-icon-head-icon-profile-picture-icons-default-anonymous-user-male-and-female-businessman-photo-placeholder-social-network-avatar-portrait-free-vector.jpg",
   },
@@ -197,7 +195,7 @@ const testimonials = [
     name: "Pooja",
     role: "Bhopal",
     content:
-      "I got B.Ed admission and now teaching in school. Thank you SS Admission Vala.",
+      "I got B.Ed admission and now teaching in school. Thank you SS Admission Wala.",
     rating: 5,
     avatar: "https://static.vecteezy.com/system/resources/previews/021/548/095/non_2x/default-profile-picture-avatar-user-avatar-icon-person-icon-head-icon-profile-picture-icons-default-anonymous-user-male-and-female-businessman-photo-placeholder-social-network-avatar-portrait-free-vector.jpg",
   },
@@ -216,9 +214,8 @@ const FAQItem = ({ faq, darkMode }) => {
   return (
     <motion.div
       layout
-      className={`border-b ${
-        darkMode ? "border-gray-700" : "border-gray-200"
-      } py-4`}
+      className={`border-b ${darkMode ? "border-gray-700" : "border-gray-200"
+        } py-4`}
     >
       <button
         className="w-full flex justify-between items-center text-left hover:text-blue-600 transition-colors"
@@ -265,9 +262,8 @@ const FAQItem = ({ faq, darkMode }) => {
 const TestimonialCard = ({ testimonial, darkMode }) => (
   <motion.div
     whileHover={{ scale: 1.03 }}
-    className={`rounded-xl p-6 ${
-      darkMode ? "bg-gray-800 border-gray-700" : "bg-white border-gray-100"
-    } border shadow-md`}
+    className={`rounded-xl p-6 ${darkMode ? "bg-gray-800 border-gray-700" : "bg-white border-gray-100"
+      } border shadow-md`}
   >
     <div className="flex items-center gap-3 mb-4">
       <img
@@ -293,13 +289,12 @@ const TestimonialCard = ({ testimonial, darkMode }) => (
       {[...Array(5)].map((_, i) => (
         <Star
           key={i}
-          className={`w-4 h-4 ${
-            i < testimonial.rating
+          className={`w-4 h-4 ${i < testimonial.rating
               ? "text-yellow-500 fill-yellow-500"
               : darkMode
                 ? "text-gray-700"
                 : "text-gray-300"
-          }`}
+            }`}
         />
       ))}
     </div>
@@ -324,16 +319,14 @@ export default function App() {
 
   return (
     <div
-      className={`min-h-screen transition-colors pt-5 duration-300 ${
-        darkMode ? "dark bg-gray-900 text-white" : "bg-gray-50 text-gray-900"
-      }`}
+      className={`min-h-screen transition-colors pt-5 duration-300 ${darkMode ? "dark bg-gray-900 text-white" : "bg-gray-50 text-gray-900"
+        }`}
     >
       <section
-        className={`relative min-h-[90vh] flex items-center overflow-hidden ${
-          darkMode
+        className={`relative min-h-[90vh] flex items-center overflow-hidden ${darkMode
             ? "bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"
             : "bg-gradient-to-br from-blue-50 via-white to-purple-100"
-        }`}
+          }`}
       >
         <div className="container mx-auto px-6 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -345,24 +338,23 @@ export default function App() {
               >
                 <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-6 leading-tight">
                   <span className={darkMode ? "text-white" : "text-gray-900"}>
-                    Best Admission Guidance
+                    Trusted Career Guidance
                   </span>
                   <br />
                   <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                    & Career Counselling
+                    & Counselling Across India
                   </span>
                 </h1>
 
                 <p
-                  className={`text-lg md:text-xl mb-8 max-w-xl leading-relaxed ${
-                    darkMode ? "text-gray-300" : "text-gray-600"
-                  }`}
+                  className={`text-lg md:text-xl mb-8 max-w-xl leading-relaxed ${darkMode ? "text-gray-300" : "text-gray-600"
+                    }`}
                 >
-                  SS Admission Vala provides complete admission guidance for
-                  Medical, Engineering, Management, Education, Paramedical and
-                  all professional courses across India. We help students choose
-                  the right career and secure admission in top colleges with
-                  expert counselling.
+                  SS Admission Wala offers trusted career counselling and education guidance
+                  for Medical, Engineering, Management, Education, Paramedical and
+                  all professional courses across India.our expert team help students explore
+                  the right opportunities, understand eligibility, and receive complete guidance throughout the college selection
+                  process.
                 </p>
 
                 <div className="flex flex-wrap gap-4 mb-12">
@@ -383,11 +375,10 @@ export default function App() {
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.98 }}
-                      className={`px-8 py-3.5 rounded-xl font-semibold border-2 transition-all duration-300 ${
-                        darkMode
+                      className={`px-8 py-3.5 rounded-xl font-semibold border-2 transition-all duration-300 ${darkMode
                           ? "border-gray-700 text-gray-300 hover:border-blue-500 hover:text-blue-400 bg-gray-800"
                           : "border-gray-300 text-gray-700 hover:border-blue-400 hover:text-blue-700 bg-white"
-                      }`}
+                        }`}
                     >
                       Learn More
                     </motion.button>
@@ -423,11 +414,10 @@ export default function App() {
                   </div>
 
                   <div
-                    className={`flex items-center gap-3 p-3 rounded-lg shadow-sm border ${
-                      darkMode
+                    className={`flex items-center gap-3 p-3 rounded-lg shadow-sm border ${darkMode
                         ? "border-gray-700 bg-gray-800"
                         : "border-gray-200 bg-white"
-                    }`}
+                      }`}
                   >
                     <div className="flex items-center gap-1">
                       {[1, 2, 3, 4, 5].map((i) => (
@@ -606,11 +596,10 @@ export default function App() {
                       initial={{ scale: 0 }}
                       animate={{ scale: 1 }}
                       transition={{ delay: 0.5, type: "spring" }}
-                      className={`absolute top-6 left-6 lg:top-10 lg:left-10 w-32 lg:w-40 p-4 rounded-2xl backdrop-blur-sm ${
-                        darkMode
+                      className={`absolute top-6 left-6 lg:top-10 lg:left-10 w-32 lg:w-40 p-4 rounded-2xl backdrop-blur-sm ${darkMode
                           ? "bg-gray-800/80 border-gray-700"
                           : "bg-white/90 border-gray-200"
-                      } border shadow-xl`}
+                        } border shadow-xl`}
                     >
                       <div className="flex items-center gap-3 mb-3">
                         <div className="w-10 h-10 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 flex items-center justify-center">
@@ -639,11 +628,10 @@ export default function App() {
                       initial={{ scale: 0 }}
                       animate={{ scale: 1 }}
                       transition={{ delay: 0.3, type: "spring" }}
-                      className={`absolute bottom-6 right-6 lg:bottom-10 lg:right-10 w-32 lg:w-40 p-4 rounded-2xl backdrop-blur-sm ${
-                        darkMode
+                      className={`absolute bottom-6 right-6 lg:bottom-10 lg:right-10 w-32 lg:w-40 p-4 rounded-2xl backdrop-blur-sm ${darkMode
                           ? "bg-gray-800/80 border-gray-700"
                           : "bg-white/90 border-gray-200"
-                      } border shadow-xl`}
+                        } border shadow-xl`}
                     >
                       <div className="flex items-center gap-3 mb-2">
                         <div className="w-10 h-10 rounded-full bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center">
@@ -711,9 +699,8 @@ export default function App() {
                     {[...Array(20)].map((_, i) => (
                       <motion.div
                         key={i}
-                        className={`absolute w-1 h-1 lg:w-2 lg:h-2 rounded-full ${
-                          darkMode ? "bg-blue-400/30" : "bg-blue-400/20"
-                        }`}
+                        className={`absolute w-1 h-1 lg:w-2 lg:h-2 rounded-full ${darkMode ? "bg-blue-400/30" : "bg-blue-400/20"
+                          }`}
                         initial={{
                           x: Math.random() * 400 - 200,
                           y: Math.random() * 400 - 200,
@@ -756,9 +743,8 @@ export default function App() {
               repeat: Infinity,
               ease: "linear",
             }}
-            className={`absolute top-1/4 left-1/4 w-96 h-96 rounded-full mix-blend-multiply filter blur-3xl opacity-30 ${
-              darkMode ? "bg-blue-900" : "bg-blue-200"
-            }`}
+            className={`absolute top-1/4 left-1/4 w-96 h-96 rounded-full mix-blend-multiply filter blur-3xl opacity-30 ${darkMode ? "bg-blue-900" : "bg-blue-200"
+              }`}
           />
 
           <motion.div
@@ -773,9 +759,8 @@ export default function App() {
               ease: "linear",
               delay: 5,
             }}
-            className={`absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full mix-blend-multiply filter blur-3xl opacity-30 ${
-              darkMode ? "bg-purple-900" : "bg-purple-200"
-            }`}
+            className={`absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full mix-blend-multiply filter blur-3xl opacity-30 ${darkMode ? "bg-purple-900" : "bg-purple-200"
+              }`}
           />
         </div>
 
@@ -783,9 +768,8 @@ export default function App() {
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className={`absolute bottom-8 left-1/2 transform -translate-x-1/2 ${
-            darkMode ? "text-gray-400" : "text-gray-600"
-          }`}
+          className={`absolute bottom-8 left-1/2 transform -translate-x-1/2 ${darkMode ? "text-gray-400" : "text-gray-600"
+            }`}
         >
           <div className="flex flex-col items-center gap-2">
             <span className="text-sm font-medium">Scroll to explore</span>
@@ -797,9 +781,8 @@ export default function App() {
       </section>
 
       <section
-        className={`py-24 ${
-          darkMode ? "bg-slate-950 text-white" : "bg-slate-50 text-slate-900"
-        } transition-colors duration-300`}
+        className={`py-24 ${darkMode ? "bg-slate-950 text-white" : "bg-slate-50 text-slate-900"
+          } transition-colors duration-300`}
       >
         <div className="container mx-auto px-6">
           {/* Header Section - Clean Premium */}
@@ -857,25 +840,23 @@ export default function App() {
                 {/* Clean Card - No excessive effects */}
                 <div
                   className={`relative h-full rounded-2xl p-6 transition-all duration-300 
-        ${
-          darkMode
-            ? "bg-gray-900/80 border border-gray-800 hover:border-gray-700"
-            : "bg-white border border-gray-100 hover:border-gray-200 shadow-sm hover:shadow-md"
-        }`}
+        ${darkMode
+                      ? "bg-gray-900/80 border border-gray-800 hover:border-gray-700"
+                      : "bg-white border border-gray-100 hover:border-gray-200 shadow-sm hover:shadow-md"
+                    }`}
                 >
                   {/* Simple Icon Container - Clean gradient */}
                   <div className="mb-5">
                     <div
                       className={`w-14 h-14 rounded-xl bg-gradient-to-br 
-            ${
-              pillar.color === "blue"
-                ? "from-blue-500 to-blue-600"
-                : pillar.color === "indigo"
-                  ? "from-indigo-500 to-indigo-600"
-                  : pillar.color === "cyan"
-                    ? "from-cyan-500 to-cyan-600"
-                    : "from-purple-500 to-purple-600"
-            } flex items-center justify-center text-white shadow-md`}
+            ${pillar.color === "blue"
+                          ? "from-blue-500 to-blue-600"
+                          : pillar.color === "indigo"
+                            ? "from-indigo-500 to-indigo-600"
+                            : pillar.color === "cyan"
+                              ? "from-cyan-500 to-cyan-600"
+                              : "from-purple-500 to-purple-600"
+                        } flex items-center justify-center text-white shadow-md`}
                     >
                       <div className="w-6 h-6">{pillar.icon}</div>
                     </div>
@@ -885,15 +866,14 @@ export default function App() {
                   <div className="space-y-3">
                     <span
                       className={`text-[10px] font-semibold uppercase tracking-wider
-            ${
-              pillar.color === "blue"
-                ? "text-blue-600 dark:text-blue-400"
-                : pillar.color === "indigo"
-                  ? "text-indigo-600 dark:text-indigo-400"
-                  : pillar.color === "cyan"
-                    ? "text-cyan-600 dark:text-cyan-400"
-                    : "text-purple-600 dark:text-purple-400"
-            }`}
+            ${pillar.color === "blue"
+                          ? "text-blue-600 dark:text-blue-400"
+                          : pillar.color === "indigo"
+                            ? "text-indigo-600 dark:text-indigo-400"
+                            : pillar.color === "cyan"
+                              ? "text-cyan-600 dark:text-cyan-400"
+                              : "text-purple-600 dark:text-purple-400"
+                        }`}
                     >
                       {pillar.subtitle}
                     </span>
@@ -916,15 +896,14 @@ export default function App() {
                         <li key={i} className="flex items-start gap-2.5">
                           <CheckCircle2
                             className={`w-4 h-4 mt-0.5 flex-shrink-0
-                  ${
-                    pillar.color === "blue"
-                      ? "text-blue-500"
-                      : pillar.color === "indigo"
-                        ? "text-indigo-500"
-                        : pillar.color === "cyan"
-                          ? "text-cyan-500"
-                          : "text-purple-500"
-                  }`}
+                  ${pillar.color === "blue"
+                                ? "text-blue-500"
+                                : pillar.color === "indigo"
+                                  ? "text-indigo-500"
+                                  : pillar.color === "cyan"
+                                    ? "text-cyan-500"
+                                    : "text-purple-500"
+                              }`}
                           />
                           <span
                             className={`text-xs ${darkMode ? "text-gray-300" : "text-gray-700"}`}
@@ -940,15 +919,14 @@ export default function App() {
                   <div className="absolute bottom-5 right-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <ArrowRight
                       className={`w-4 h-4 
-            ${
-              pillar.color === "blue"
-                ? "text-blue-500"
-                : pillar.color === "indigo"
-                  ? "text-indigo-500"
-                  : pillar.color === "cyan"
-                    ? "text-cyan-500"
-                    : "text-purple-500"
-            }`}
+            ${pillar.color === "blue"
+                          ? "text-blue-500"
+                          : pillar.color === "indigo"
+                            ? "text-indigo-500"
+                            : pillar.color === "cyan"
+                              ? "text-cyan-500"
+                              : "text-purple-500"
+                        }`}
                     />
                   </div>
                 </div>
@@ -960,11 +938,10 @@ export default function App() {
 
       {/* Stats Section */}
       <section
-        className={`py-16 ${
-          darkMode
+        className={`py-16 ${darkMode
             ? "bg-gray-800"
             : "bg-gradient-to-r from-blue-50 to-purple-50"
-        }`}
+          }`}
       >
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -1060,9 +1037,8 @@ export default function App() {
               Collective Wisdom for Individual Growth
             </h2>
             <p
-              className={`text-lg mb-8 ${
-                darkMode ? "text-gray-300" : "text-gray-600"
-              }`}
+              className={`text-lg mb-8 ${darkMode ? "text-gray-300" : "text-gray-600"
+                }`}
             >
               Unlike solo practitioners, we work as an integrated team. If your
               career stress is affecting your relationship, our career expert
@@ -1133,11 +1109,10 @@ export default function App() {
 
       {/* Process Section */}
       <section
-        className={`py-16 ${
-          darkMode
+        className={`py-16 ${darkMode
             ? "bg-gradient-to-br from-gray-900 to-gray-800"
             : "bg-gradient-to-br from-blue-900 to-purple-900"
-        } text-white`}
+          } text-white`}
       >
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
@@ -1210,9 +1185,8 @@ export default function App() {
         </div>
 
         <div
-          className={`rounded-2xl p-6 shadow-lg ${
-            darkMode ? "bg-gray-800" : "bg-white"
-          }`}
+          className={`rounded-2xl p-6 shadow-lg ${darkMode ? "bg-gray-800" : "bg-white"
+            }`}
         >
           {faqs.map((faq, i) => (
             <FAQItem key={i} faq={faq} darkMode={darkMode} />

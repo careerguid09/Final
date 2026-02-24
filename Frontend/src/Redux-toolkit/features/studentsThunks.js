@@ -8,7 +8,6 @@ export const getAllStudents = createAsyncThunk(
   async (_, { rejectWithValue }) => {
     try {
       const response = await authFetch.get('/clients');
-      console.log('📥 API Response:', response.data);
       return response.data; // Return full response, slice will handle structure
     } catch (error) {
       console.error('❌ API Error:', error);

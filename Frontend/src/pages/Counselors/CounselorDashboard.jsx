@@ -255,7 +255,6 @@ useEffect(() => {
 
       await dispatch(getVisitorStats()).unwrap();
       await dispatch(getTodayVisitors()).unwrap();
-      console.log("✅ All data fetched successfully");
     } catch (error) {
       console.error("❌ Error fetching data:", error);
     }

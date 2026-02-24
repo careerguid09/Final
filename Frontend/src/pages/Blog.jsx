@@ -384,7 +384,7 @@ const BlogContent = () => {
     e.preventDefault();
     if (searchQuery.trim()) {
       window.open(
-        `https://www.google.com/search?q=${encodeURIComponent(searchQuery + " SS Admission Vala")}`,
+        `https://www.google.com/search?q=${encodeURIComponent(searchQuery + " SS Admission Wala")}`,
         "_blank",
       );
     }
@@ -416,7 +416,7 @@ const BlogContent = () => {
               className="text-4xl md:text-6xl font-bold mb-6"
             >
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-700">
-                SS Admission Vala
+                SS Admission Wala
               </span>
               <br />
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
@@ -472,7 +472,7 @@ const BlogContent = () => {
                     onClick={() => {
                       setSearchQuery(tag);
                       window.open(
-                        `https://www.google.com/search?q=${encodeURIComponent(tag + " SS Admission Vala")}`,
+                        `https://www.google.com/search?q=${encodeURIComponent(tag + " SS Admission wala")}`,
                         "_blank",
                       );
                     }}

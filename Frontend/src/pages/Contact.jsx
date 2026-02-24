@@ -364,69 +364,7 @@ const Contact = () => {
     });
   };
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-
-  //   if (formData.phone.length < 8) {
-  //     toast.error("Please enter a valid phone number (minimum 8 digits).");
-  //     return;
-  //   }
-
-  //   if (!formData.eduLevel || !formData.domain || !formData.course) {
-  //     toast.warning("Please fill all required academic fields.");
-  //     return;
-  //   }
-
-  //   setIsLoading(true);
-  //   const loadingToastId = toast.loading("Submitting your form...");
-
-  //   try {
-  //     const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/clients`, {
-  //       method: "POST",
-  //       headers: { "Content-Type": "application/json" },
-  //       body: JSON.stringify({
-  //         ...formData,
-  //         phone: `${formData.countryCode} ${formData.phone}`,
-  //       }),
-  //     });
-
-  //     toast.dismiss(loadingToastId);
-
-  //     if (!response.ok) {
-  //       const data = await response.json();
-  //       throw new Error(data.message || "Something went wrong");
-  //     }
-
-  //     setIsSubmitted(true);
-  //     setFormData({
-  //       fullName: "",
-  //       email: "",
-  //       countryCode: "+91",
-  //       phone: "",
-  //       dob: "",
-  //       age: "",
-  //       country: "",
-  //       state: "",
-  //       city: "",
-  //       eduLevel: "",
-  //       domain: "",
-  //       course: "",
-  //       message: "",
-  //     });
-
-  //     toast.success("Form submitted successfully! Our team will contact you soon.");
-
-  //     setTimeout(() => setIsSubmitted(false), 5000);
-  //   } catch (error) {
-  //     console.error("Form submit error:", error);
-  //     toast.error(
-  //       error.message || "Submission failed. Please try again later.",
-  //     );
-  //   } finally {
-  //     setIsLoading(false);
-  //   }
-  // };
-
+ 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -507,16 +445,7 @@ const Contact = () => {
       </div>
 
       <div className="min-h-screen bg-gray-50 text-gray-900">
-        {/* Floating WhatsApp Button */}
-        <motion.button
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          whileHover={{ scale: 1.05 }}
-          onClick={openWhatsApp}
-          className="fixed bottom-6 right-6 z-50 w-12 h-12 bg-green-600 rounded-full shadow-lg flex items-center justify-center hover:shadow-green-500/50 transition-all"
-        >
-          <MessageSquare className="w-5 h-5 text-white" />
-        </motion.button>
+       
 
         {/* Main Content */}
         <section className="py-12">
