@@ -1,10 +1,7 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-
-import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -20,62 +17,14 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 function AppRoutes() {
   const location = useLocation();
-
-  const [showPopup, setShowPopup] = useState(false);
   const navigate = useNavigate();
+  
+  // Popup visibility state
+  const [showPopup, setShowPopup] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   const hideFooter = location.pathname === "/contact";
   const hideSocialIcons = location.pathname === "/contact" || location.pathname === "/counselors/dashboard";
-
-
-  useEffect(() => {
-    setShowPopup(true);
-
-    const timer = setTimeout(() => {
-      setShowPopup(false);
-    }, 5000);
-
-    return () => clearTimeout(timer);
-  }, [location.pathname]);
-
-  useEffect(() => {
-    let timeout;
-
-    const handleScroll = () => {
-      // Don't show on contact or counselor dashboard
-      if (
-        location.pathname === "/contact" ||
-        location.pathname === "/Counselors/Dashboard"
-      ) {
-        return;
-      }
-
-      setShowPopup(true);
-
-      clearTimeout(timeout);
-
-      timeout = setTimeout(() => {
-        setShowPopup(false);
-      }, 5000); // 5 sec after scroll stops
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      clearTimeout(timeout);
-    };
-  }, [location.pathname]);
-
-
-  const openWhatsApp = () => {
-    const message = `Hello SS Admission Wala, I'm interested in career counseling.`;
-    window.open(
-      `https://wa.me/${contactInfo.whatsapp}?text=${encodeURIComponent(message)}`,
-      "_blank",
-    );
-  };
-
 
   const contactInfo = {
     phone: "+91 74156 66361",
@@ -88,7 +37,41 @@ function AppRoutes() {
     youtube: "https://www.youtube.com/@SSADMISSIONVALA",
   };
 
+  // Scroll direction detection
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      
+      // Don't show on contact or counselor dashboard
+      if (location.pathname === "/contact" || location.pathname === "/counselors/dashboard") {
+        return;
+      }
 
+      if (currentScrollY > lastScrollY && currentScrollY > 50) {
+        // Scrolling DOWN - hide popup
+        setShowPopup(false);
+      } else if (currentScrollY < lastScrollY) {
+        // Scrolling UP - show popup
+        setShowPopup(true);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY, location.pathname]);
+
+  const openWhatsApp = () => {
+    const message = `Hello SS Admission Wala, I'm interested in career counseling.`;
+    window.open(
+      `https://wa.me/${contactInfo.whatsapp}?text=${encodeURIComponent(message)}`,
+      "_blank",
+    );
+  };
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -116,94 +99,76 @@ function AppRoutes() {
 
       {!hideFooter && <Footer />}
 
-
-
-      {/* Contact Popup */}
-      {showPopup &&
-        location.pathname !== "/contact" &&
-        location.pathname !== "/counselors/dashboard" && <AnimatePresence>
-          {showPopup && location.pathname !== "/contact" && (
-            <motion.div
-              initial={{ opacity: 0, x: 100 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 100 }}
-              transition={{ duration: 0.6 }}
-              onClick={() => navigate("/contact")}
-              className="fixed top-28 right-6 z-[999] 
-                 bg-gradient-to-r from-indigo-600 to-white 
-                 text-black px-6 py-3 rounded-2xl 
-                 shadow-2xl cursor-pointer 
-                 hover:scale-105 transition-all
-                 font-semibold"
-
-            >
-              📞 Need Counseling? Click Here
-            </motion.div>
-          )}
-        </AnimatePresence>}
-
-
-      {/* Floating Social Icons */}
-      {hideSocialIcons ? null : <div className="fixed bottom-22 right-6 z-50 flex flex-col gap-3 items-center">
-
-        <motion.button
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          whileHover={{ scale: 1.2 }}
-          onClick={openWhatsApp}
-          className="fixed bottom-6 right-6 z-50 w-11 h-11 rounded-full bg-green-400 flex items-center justify-center hover:shadow-green-500/50 transition-all"
+      {/* Contact Popup - Smooth Transition */}
+      {location.pathname !== "/contact" && location.pathname !== "/counselors/dashboard" && (
+        <div
+          onClick={() => navigate("/contact")}
+          className={`
+            fixed top-28 right-6 z-[999] 
+            bg-gradient-to-r from-indigo-600 to-white 
+            text-black px-6 py-3 rounded-2xl 
+            shadow-2xl cursor-pointer 
+            hover:scale-105 transition-all
+            font-semibold
+            transform transition-all duration-500 ease-in-out
+            ${showPopup 
+              ? "opacity-100 translate-x-0" 
+              : "opacity-0 translate-x-10 pointer-events-none"
+            }
+          `}
         >
-          {/* <MessageSquare className="w-5 h-5 text-white" /> */}
-          <img
-            src="/whatsapp.webp"
-            alt="WhatsApp"
-            className="w-full h-full object-cover rounded-full"
-          />
-        </motion.button>
+          📞 Need Counseling? Click Here
+        </div>
+      )}
 
-        {/* Instagram */}
-        <motion.a
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          whileHover={{ scale: 1.2 }}
-          href={contactInfo.instagram}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-11 h-11 rounded-full bg-gradient-to-tr from-pink-400 via-red-300 to-yellow-300 
-               flex items-center justify-center shadow-lg transition-all"
-        >
-          <FaInstagram className="w-5 h-5 text-white" />
-        </motion.a>
+      {/* Floating Social Icons - Always visible */}
+      {!hideSocialIcons && (
+        <div className="fixed bottom-22 right-6 z-50 flex flex-col gap-3 items-center">
+          <button
+            onClick={openWhatsApp}
+            className="fixed bottom-6 right-6 z-50 w-11 h-11 rounded-full bg-green-400 flex items-center justify-center hover:shadow-green-500/50 transition-all hover:scale-110"
+          >
+            <img
+              src="/whatsapp.webp"
+              alt="WhatsApp"
+              className="w-full h-full object-cover rounded-full"
+            />
+          </button>
 
-        {/* Facebook */}
-        <motion.a
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          whileHover={{ scale: 1.2 }}
-          href={contactInfo.facebook}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-11 h-11 rounded-full bg-blue-400 
-               flex items-center justify-center shadow-lg transition-all"
-        >
-          <FaFacebook className="w-5 h-5 text-white" />
-        </motion.a>
+          {/* Instagram */}
+          <a
+            href={contactInfo.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-11 h-11 rounded-full bg-gradient-to-tr from-pink-400 via-red-300 to-yellow-300 
+              flex items-center justify-center shadow-lg transition-all hover:scale-110"
+          >
+            <FaInstagram className="w-5 h-5 text-white" />
+          </a>
 
-        {/* YouTube */}
-        <motion.a
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          whileHover={{ scale: 1.2 }}
-          href={contactInfo.youtube}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-11 h-11 rounded-full bg-red-400 
-               flex items-center justify-center shadow-lg transition-all"
-        >
-          <FaYoutube className="w-5 h-5 text-white" />
-        </motion.a>
+          {/* Facebook */}
+          <a
+            href={contactInfo.facebook}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-11 h-11 rounded-full bg-blue-400 
+              flex items-center justify-center shadow-lg transition-all hover:scale-110"
+          >
+            <FaFacebook className="w-5 h-5 text-white" />
+          </a>
 
-      </div>}
+          {/* YouTube */}
+          <a
+            href={contactInfo.youtube}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-11 h-11 rounded-full bg-red-400 
+              flex items-center justify-center shadow-lg transition-all hover:scale-110"
+          >
+            <FaYoutube className="w-5 h-5 text-white" />
+          </a>
+        </div>
+      )}
     </div>
   );
 }
